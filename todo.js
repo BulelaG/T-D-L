@@ -97,8 +97,8 @@ function displayTasks(userTasks) {
                   <td>${task.description}</td>
                   <td>${task.dueDate}</td>
                   <td class="d-flex ">
-                      <button class="edit-task btn btn-primary mx-2" data-index="${index}"><i class="bi bi-pen"></i>Edit</button>
-                      <button class="delete-task btn btn-danger mx-2 " data-index="${index}"><i class="bi bi-trash3-fill"></i>Delete</button>
+                      <button class="edit-task btn  mx-2 text-primary" data-index="${index}"><i class="bi bi-pen"></i></button>
+                      <button class="delete-task btn mx-2 text-danger" data-index="${index}"><i class="bi bi-trash3-fill"></i></button>
                   </td>
               </tr>
           `).join('')}
