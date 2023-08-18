@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Sign Up - ToDo List App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+   
+    <nav class="navbar navbar-light bg-light pb-2 justify-content-between">
+        <a class="navbar-brand"><img class="logo" src="./T-D-L Logo.png" alt=""></a>
+        <div>
+               <b><a class="text-warning" id="login" href="./signin.html" target="_blank" rel="noopener noreferrer"> Login</a></b>
+            </form>
+          <!-- <button id="logout" class=" btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button> -->
+        </div>  
+      </nav>
+  <div  class="container bg-light">
+    <h2>Create your account below.</h2>
+    <p class="text-center"><em><b class="text-success">Time your daily tasks with us.</b></em></p>
+
+    <form id="signup-form">
+      <input type="text" id="signup-username" placeholder="Username" required>
+      <input type="password" id="signup-password" placeholder="Password" required>
+      <input type="password" id="confirm-signup-password" placeholder="Confirm password" required>
+      <button type="submit" class="btn btn-success btn-rounded">Sign Up</button>
+
+    </form>
+    <p>Already have an account? <a class="text-warning" href="signin.html">Sign In</a></p>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="signup.js"></script>
+</body>
+</html>
