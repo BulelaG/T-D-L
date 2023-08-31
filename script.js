@@ -78,10 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-
-
-
-
     // Display initial tasks if the user is already authenticated
     if (users.some(user => user.isAuthenticated)) {
       taskSection.style.display = "block";
