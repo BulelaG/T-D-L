@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         user.isAuthenticated = true;
         localStorage.setItem("users", JSON.stringify(users));
         alert("Signed in successfully!");
-        window.location.href = "todo.html";
+        window.location.href = "index.html";
       } else {
         alert("Invalid username or password.");
       }
